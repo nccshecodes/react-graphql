@@ -1,5 +1,4 @@
 import propTypes from 'prop-types';
-import styled from 'styled-components';
 import { Header } from '../components/Header';
 
 import { GlobalStyles } from '../components/styles/GlobalStyles';
@@ -16,10 +15,7 @@ const Page = function Page({ children }) {
 };
 
 Page.propTypes = {
-  children: propTypes.oneOf([
-    propTypes.arrayOf(propTypes.node),
-    propTypes.node,
-  ]),
+  children: propTypes.any,
 };
 
 export { Page };
