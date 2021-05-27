@@ -1,6 +1,4 @@
-import propTypes from 'prop-types';
-import styled, { createGlobalStyle } from 'styled-components';
-import { Header } from './Header';
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
   @font-face {
@@ -50,27 +48,4 @@ const GlobalStyles = createGlobalStyle`
   }
 `;
 
-const InnerStyles = styled.div`
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 2rem;
-`;
-
-const Page = function Page({ children }) {
-  return (
-    <div>
-      <GlobalStyles />
-      <Header />
-      <InnerStyles>{children}</InnerStyles>
-    </div>
-  );
-};
-
-Page.propTypes = {
-  children: propTypes.oneOf([
-    propTypes.arrayOf(propTypes.node),
-    propTypes.node,
-  ]),
-};
-
-export { Page };
+export { GlobalStyles };

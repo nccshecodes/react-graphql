@@ -1,5 +1,5 @@
 import propTypes, { arrayOf } from 'prop-types';
-import { Page } from '../components/Page';
+import { Page } from './Page';
 
 export default function MyApp({ Component, pageProps }) {
   return (
