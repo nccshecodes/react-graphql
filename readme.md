@@ -27,7 +27,7 @@ src
 
 #### Pages
 
-Page files are used to create routing, where the file name is used as the url. For this reason, use `kebab-case` for file names.
+Page files are used to create routing, where the file name is used as the url. For this reason, use `kebab-case` for file names [url structure](https://moz.com/learn/seo/url)
 
 - `about.js` becomes `mydomain.com/about`
 - `contact-us.js` becomes `mydomain.com/contact-us`
