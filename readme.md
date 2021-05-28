@@ -4,6 +4,34 @@ This project is taken from the [Advanced React & GraphQL](https://AdvancedReact.
 
 ## Project config
 
+### Architecture
+
+Component and page files are kept separate.
+
+#### Components
+
+- Group all related files in a single directory
+- Use `PascalCase` for file names eg. `CustomComponent.js`
+- Use an `index.js` to export the component from the root of the directory
+
+```
+src
+└ components
+  └ Button
+    |- Button.js => main component code
+    |- Button.spec.js => testing-library test
+    |- ButtonStyles. => css styles as styled-component
+    |- README.md => API documentation
+    └─ index.js => named export
+```
+
+#### Pages
+
+Page files are used to create routing, where the file name is used as the url. For this reason, use `kebab-case` for file names.
+
+- `about.js` becomes `mydomain.com/about`
+- `contact-us.js` becomes `mydomain.com/contact-us`
+
 ### Front End
 
 - next.js
