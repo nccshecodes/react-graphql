@@ -39,7 +39,7 @@ Page files are used to create routing, where the file name is used as the url. F
 
 #### [NProgress](https://github.com/rstacruz/nprogress)
 
-This adds a visual effect to show the user that something is 'happening' when a link is clicked. The intention being that this is useful feedback for the user if the connection is slow for whatever reason. It works by hooking into Router events. Take a look at `_app.js` to see implementation.
+This adds a visual effect to show the user that something is 'happening' when a link is clicked. The intention being that this is useful feedback for the user if their connection is slow. It works by hooking into Router events. Take a look at `_app.js` to see implementation.
 
 ### Back End
 
@@ -49,7 +49,7 @@ This adds a visual effect to show the user that something is 'happening' when a 
 
 #### MongoDB Atlas
 
-Hosted service witha free tier providing useful reporting and analytics as well as the database itself.
+Hosted service with a free tier providing useful reporting and analytics as well as the database itself.
 
 - create organisation
 - create database (project)
