@@ -45,7 +45,13 @@ This adds a visual effect to show the user that something is 'happening' when a 
 
 - MongoDB
 - KeystoneJS (CMS)
+- Typescript
 
 #### MongoDB Atlas
 
 Hosted service witha free tier providing useful reporting and analytics as well as the database itself.
+
+- create organisation
+- create database (project)
+- create cluster
+- connect via MongoDB Compass using the pre-formatted connection string provided from `Connect your application`
